@@ -1,0 +1,6 @@
+Column,Leakage_Type,Evidence,Action
+Desire_To_Cancel,Post-outcome / Target-derived,Always NULL when target is NULL (106891 rows). Only populated alongside target.,DROP — causes data leakage
+Renewal_Impact_Due_to_Price_Increase,Post-outcome / Target-derived,Always NULL when target is NULL (106891 rows). Only populated alongside target.,DROP — causes data leakage
+Prospect_Outcome,Direct target proxy,Churned rows: 955 Yes / 946 No. Won rows: 478 Yes / 17744 No.,"DROP — direct business outcome label, same information as target"
+Total_Renewal_Score_New ↔ Status_Scores,Multicollinearity (not leakage per se),Pearson r = 0.958,KEEP both but note high correlation — consider dropping Status_Scores if overfitting
+cc_*_x and cc_*_y columns (6 total),Near-empty in training rows,~95% NULL in rows where target is known (19026/20123 rows missing),DROP — too sparse to be useful; risk of noise

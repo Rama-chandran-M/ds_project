@@ -1,0 +1,7 @@
+Fold,ROC_AUC
+Fold 1,0.8606
+Fold 2,0.8881
+Fold 3,0.8762
+Fold 4,0.878
+Fold 5,0.8876
+Mean ± Std,0.8781 ± 0.0100

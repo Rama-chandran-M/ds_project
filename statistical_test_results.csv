@@ -1,0 +1,9 @@
+Column,Test,Statistic,p_value,Degrees_of_Freedom,Significant (p<0.05)
+crm_customer_payment_intention,Chi-Square,1549.6249,0.0,4,Yes
+crm_contractor_suggested_leave,Chi-Square,1358.0966,0.0,4,Yes
+crm_customer_complained,Chi-Square,30324.9903,0.0,4,Yes
+crm_negative_customer_experience,Chi-Square,30344.9516,0.0,4,Yes
+crm_dissatisfaction_with_support,Chi-Square,30257.2355,0.0,4,Yes
+crm_financial_hardship_mentioned,Chi-Square,30333.8382,0.0,4,Yes
+crm_delays_in_accreditation,Chi-Square,1334.1739,0.0,4,Yes
+crm_agent_chase_count,Kruskal-Wallis,3231.5978,0.0,2,Yes

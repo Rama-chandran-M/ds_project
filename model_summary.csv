@@ -1,0 +1,2 @@
+Total_Rows_Raw,Rows_After_Cleaning,Training_Rows,Test_Rows,Categorical_Features,Numerical_Features,Model,Max_Depth,Class_Weight,Test_ROC_AUC,CV_ROC_AUC_Mean,CV_ROC_AUC_Std,Leakage_Columns_Dropped
+127572,20123,16098,4025,4,3,Decision Tree (CRT / Gini),6,balanced,0.8801,0.8781,0.01,9

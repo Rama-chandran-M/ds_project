@@ -1,0 +1,13 @@
+Feature,N,Chi2,p_value,DoF,Cramers_V,Decision,Reason
+Membership_Renewal_Decision,18649,5443.83,0.0,2,0.4753,INCLUDE,Significant + meaningful effect size
+Desire_To_Cancel,18649,4783.89,0.0,3,0.4518,INCLUDE,Significant + meaningful effect size
+Renewal_Impact_Due_to_Price_Increase,18649,863.04,0.0,2,0.2103,INCLUDE,Significant + meaningful effect size
+Other_Complaint,18649,144.89,0.0,2,0.0878,CONSIDER,Significant but weak effect (use domain judgment)
+Discount_Offered,18649,114.85,0.0,3,0.0782,CONSIDER,Significant but weak effect (use domain judgment)
+Mentioned_Competitors,18649,102.91,0.0,2,0.0741,CONSIDER,Significant but weak effect (use domain judgment)
+Serious_Complaint,18649,49.99,0.0,2,0.0517,CONSIDER,Significant but weak effect (use domain judgment)
+Explicit_Competitor_Mention,18649,33.55,0.0,2,0.0424,CONSIDER,Significant but weak effect (use domain judgment)
+Explicit_Switching_Intent,18649,28.02,1e-06,2,0.0387,CONSIDER,Significant but weak effect (use domain judgment)
+Call_Reschedule_Request,18649,8.05,0.017885,2,0.0208,CONSIDER,Significant but weak effect (use domain judgment)
+Discount_or_Waiver_Requested,18649,1.24,0.538929,2,0.0081,DROP,Not significant (p >= 0.05)
+Discussion_on_Price_Increase,18649,1.14,0.564873,2,0.0078,DROP,Not significant (p >= 0.05)

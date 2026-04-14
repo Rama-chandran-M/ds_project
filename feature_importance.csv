@@ -1,0 +1,8 @@
+Feature,Importance,Rank
+Total_Renewal_Score_New,0.8551555953366928,1
+crm_negative_customer_experience,0.07722090522145535,2
+crm_financial_hardship_mentioned,0.03778289734971109,3
+crm_dissatisfaction_with_support,0.010763898563416759,4
+crm_customer_complained,0.00849234613508246,5
+Status_Scores,0.008203523951606694,6
+Sustainability_Score,0.002380833442034896,7
